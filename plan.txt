@@ -19,3 +19,5 @@ About Page
 To get movies:
     https://api.themoviedb.org/3/movie/now_playing?api_key=30f1528aa3b148352fb926ffd693b275&language=en-US&page=1`
 
+
+
