@@ -1,0 +1,5 @@
+.flex_nav_wrap {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}

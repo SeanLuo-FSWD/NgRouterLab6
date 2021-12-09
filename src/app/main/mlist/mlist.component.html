@@ -1,0 +1,11 @@
+<div class="flex mlist_wrap">
+  <div class="mlist_item" *ngFor="let item of displayList">
+    <h2>{{ item.title }}</h2>
+
+    <img
+      src="https://image.tmdb.org/t/p/w200{{ item.poster_path }}"
+      alt=""
+      srcset=""
+    />
+  </div>
+</div>

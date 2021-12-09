@@ -1,0 +1,21 @@
+Need to have a parent component that holds the movies attribute.
+
+Number of pages has to be calculated. So if 4 movies per page, then 30/4 = 6 movies remaining. 
+
+There should be an unified incrementable attr that is shared between nav display and what is used to calculate the pages. 
+
+The nav link is displayed accordingly.
+
+//
+
+Header
+Movie Page(main) : call api, holds page state(current, and calculated), filter
+    Sub Nav(mnav) : page nav 
+    Movie List(mlist) : display 
+About Page  
+
+//
+
+To get movies:
+    https://api.themoviedb.org/3/movie/now_playing?api_key=30f1528aa3b148352fb926ffd693b275&language=en-US&page=1`
+

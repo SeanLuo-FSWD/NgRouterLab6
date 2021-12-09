@@ -1,0 +1,13 @@
+<div class="flex_nav_wrap">
+  <select id="genres" name="genres" #genreInput (change)="onChangeGenre()">
+    <option value="0">All</option>
+    <option *ngFor="let genre of genreList" value="{{ genre.id }}">
+      {{ genre.name }}
+    </option>
+  </select>
+
+  <div>
+    <button (click)="onNavigate(false)">&lt;</button>{{ navState[0] }} /
+    {{ navState[1] }}<button (click)="onNavigate(true)">&gt;</button>
+  </div>
+</div>
